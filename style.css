@@ -91,6 +91,9 @@ footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--text); }
 
 @media (max-width: 560px) {
+  .top .in { padding: 14px 16px; gap: 8px 12px; }
+  nav { gap: 14px; }
+  nav a { font-size: 14px; }
   main { padding-top: 40px; }
   .glance { grid-template-columns: 1fr; }
 }
