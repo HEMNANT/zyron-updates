@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Zyron POS</title>
+<meta name="description" content="How Zyron POS, the pharmacy billing and stock app, stores and protects your shop's data.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="in">
+  <a class="brand" href="../"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect width="24" height="24" rx="7" fill="currentColor"/><path d="M10.5 6h3v4.5H18v3h-4.5V18h-3v-4.5H6v-3h4.5z" style="fill:var(--surface)"/></svg>Zyron POS</a>
+  <nav><a href="./" aria-current="page">Privacy</a><a href="../delete-account/">Delete account</a></nav>
+</div></header>
+
+<main>
+  <p class="eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Zyron POS is a billing and stock app for pharmacies. This page explains, in plain words, what the app stores, where it goes, and how to remove it.</p>
+  <p class="meta">Last updated 12 November 2026 · Android app <code>com.wormhole.zyron</code></p>
+
+  <ul class="glance">
+    <li><b>Your shop's data stays yours</b>Each pharmacy's records are walled off. No other shop can see them.</li>
+    <li><b>No ads, never sold</b>We don't show ads, and we don't sell or rent any data.</li>
+    <li><b>Works offline</b>Records live on your devices first and sync to the cloud as a backup.</li>
+    <li><b>Delete any time</b>Remove staff logins in the app, or ask us to erase the whole shop.</li>
+  </ul>
+
+  <section>
+    <h2>Who is responsible for the data</h2>
+    <p>The pharmacy that uses Zyron POS decides what to record and owns those records. We provide the app and the storage that keeps it running. If you are a customer of a pharmacy and want your details changed or removed, ask that pharmacy, or write to us and we will pass it on.</p>
+  </section>
+
+  <section>
+    <h2>What the app stores</h2>
+    <ul>
+      <li><strong>Staff accounts:</strong> the staff member's name, username, role and which screens they may open. Used only for signing in.</li>
+      <li><strong>Business records:</strong> medicines, stock and batches, purchases, suppliers, sales and bills, payments and accounts.</li>
+      <li><strong>Customer records the pharmacy enters:</strong> customer name and phone number, doctor name, purchase history and loyalty points. Lab test records too, if the pharmacy uses the lab module.</li>
+      <li><strong>Device information:</strong> an id for each till, so sales sync correctly between the shop's devices, plus app logs that stay on the device.</li>
+    </ul>
+    <p>The app does not collect your location, contacts, or browsing activity.</p>
+  </section>
+
+  <section>
+    <h2>Where it is stored</h2>
+    <p>On the shop's own devices, in a local database, so billing keeps working without internet. It is also stored in <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore, on Google Cloud), which syncs the shop's devices and keeps a backup. All traffic to the cloud is encrypted.</p>
+  </section>
+
+  <section>
+    <h2>Services that help run the app</h2>
+    <ul>
+      <li><strong>Google Firebase</strong>: sign-in and the cloud database.</li>
+      <li><strong>Google Gemini</strong>: only if the pharmacy turns on AI invoice scanning. Photos of <em>supplier invoices</em> are sent to Google to read the text. Customer and patient details are never sent.</li>
+      <li><strong>Cloudflare</strong>: when the pharmacy shares a bill on WhatsApp, that single bill (its items, amounts, and the patient name if one was entered) is stored on Cloudflare. Anyone with the link can open it, and the link can't be guessed.</li>
+    </ul>
+    <p>These providers process data only to deliver their service to us. Camera access is used only to scan invoices and barcodes. The microphone is used only for voice commands, which are understood on the device; the audio is never uploaded.</p>
+  </section>
+
+  <section>
+    <h2>How long data is kept</h2>
+    <p>Data is kept while the pharmacy uses Zyron POS. Sale and purchase invoices may have to be kept for the period Indian GST and drug-sale rules require; they are deleted after that. Everything else is deleted when the pharmacy asks. See <a href="../delete-account/">how to delete your account</a>.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <ul>
+      <li>Ask for a copy of your shop's data, or for corrections.</li>
+      <li>Remove a staff login yourself from inside the app.</li>
+      <li>Ask us to delete the whole pharmacy account and its data.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>Zyron POS is a business tool for pharmacy staff. It is not meant for children, and we do not knowingly collect data from them.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the new version is posted on this page with a new date.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions or requests: <a href="mailto:support@wormhole.co.in">support@wormhole.co.in</a></p>
+  </section>
+</main>
+
+<footer>
+  <span>Zyron POS</span>
+  <a href="./">Privacy</a>
+  <a href="../delete-account/">Delete account</a>
+  <a href="mailto:support@wormhole.co.in">support@wormhole.co.in</a>
+</footer>
+</body>
+</html>
