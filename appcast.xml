@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Zyron POS</title>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Thu, 12 Nov 2026 07:47:51 GMT</pubDate>
+      <enclosure url="https://github.com/HEMNANT/zyron-updates/releases/download/v1.0.0.1/ZyronSetup.exe" sparkle:os="windows" sparkle:version="1.0.0+1" sparkle:shortVersionString="1.0.0" sparkle:installerArguments="/SILENT /SP- /NOCANCEL" sparkle:dsaSignature="MD4CHQCTLQL0jemJk1i1kx5Blz7IE1/4pKcW3PrIbhs1Ah0AkdJSvUvskprBKzGvjgw48KeZsJ5QEJymzRDYAA==" length="56396720" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
