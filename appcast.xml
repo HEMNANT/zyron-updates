@@ -3,9 +3,9 @@
   <channel>
     <title>Zyron POS</title>
     <item>
-      <title>Version 1.1.3</title>
-      <pubDate>Thu, 19 Nov 2026 05:21:10 GMT</pubDate>
-      <enclosure url="https://github.com/HEMNANT/zyron-updates/releases/download/v1.1.3.1/ZyronSetup.exe" sparkle:os="windows" sparkle:version="1.1.3+1" sparkle:shortVersionString="1.1.3" sparkle:installerArguments="/SILENT /SP- /NOCANCEL" sparkle:dsaSignature="MD0CHQCDdRrUEoEtwMsVdeHNf4Aw9wTIxqwa186CB/OVAhxaUmmwvWKGJD2SHmHzL6jO4sojAqnE9dWoCI14" length="56285558" type="application/octet-stream" />
+      <title>Version 1.1.4</title>
+      <pubDate>Thu, 19 Nov 2026 05:46:42 GMT</pubDate>
+      <enclosure url="https://github.com/HEMNANT/zyron-updates/releases/download/v1.1.4.1/ZyronSetup.exe" sparkle:os="windows" sparkle:version="1.1.4+1" sparkle:shortVersionString="1.1.4" sparkle:installerArguments="/SILENT /SP- /NOCANCEL" sparkle:dsaSignature="MD0CHCiT8xZPRLw/f2OU3j98zsQQY0ZbR4mtuxnypikCHQC0RW6IdYs0nYzco7i165dHjoE6ZDGGbv5hY5SU" length="56278446" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
